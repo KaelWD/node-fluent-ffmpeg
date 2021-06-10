@@ -1,27 +1,19 @@
-# Fluent ffmpeg-API for node.js [![Build Status](https://secure.travis-ci.org/fluent-ffmpeg/node-fluent-ffmpeg.svg?branch=master)](http://travis-ci.org/fluent-ffmpeg/node-fluent-ffmpeg)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffluent-ffmpeg%2Fnode-fluent-ffmpeg.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffluent-ffmpeg%2Fnode-fluent-ffmpeg?ref=badge_shield)
-
-> **Fluent-ffmpeg is looking for new maintainers**
-> More details [on the wiki](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg/wiki/Looking-for-a-new-maintainer)
+# Fluent ffmpeg-API for node.js
 
 This library abstracts the complex command-line usage of ffmpeg into a fluent, easy to use node.js module. In order to be able to use this module, make sure you have [ffmpeg](http://www.ffmpeg.org) installed on your system (including all necessary encoding libraries like libmp3lame or libx264).
 
-> This is the documentation for fluent-ffmpeg 2.x.
-> You can still access the code and documentation for fluent-ffmpeg 1.7 [here](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg/tree/1.x).
-
 ## Installation
 
-Via npm:
+Via yarn:
 
 ```sh
-$ npm install fluent-ffmpeg
+$ yarn add @kaelwd/fluent-ffmpeg
 ```
 
-Or as a submodule:
+Or npm:
 ```sh
-$ git submodule add git://github.com/schaermu/node-fluent-ffmpeg.git vendor/fluent-ffmpeg
+$ npm install @kaelwd/fluent-ffmpeg
 ```
-
 
 
 ## Usage
@@ -33,7 +25,7 @@ You will find a lot of usage examples (including a real-time streaming example u
 
 #### ffmpeg and ffprobe
 
-fluent-ffmpeg requires ffmpeg >= 0.9 to work.  It may work with previous versions but several features won't be available (and the library is not tested with lower versions anylonger).
+fluent-ffmpeg requires ffmpeg >= 0.9 to work.  It may work with previous versions but several features won't be available (and the library is not tested with lower versions any longer).
 
 If the `FFMPEG_PATH` environment variable is set, fluent-ffmpeg will use it as the full path to the `ffmpeg` executable.  Otherwise, it will attempt to call `ffmpeg` directly (so it should be in your `PATH`).  You must also have ffprobe installed (it comes with ffmpeg in most distributions).  Similarly, fluent-ffmpeg will use the `FFPROBE_PATH` environment variable if it is set, otherwise it will attempt to call it in the `PATH`.
 
