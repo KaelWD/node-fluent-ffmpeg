@@ -1,3 +1,26 @@
+## <small>2.1.3 (2021-06-10)</small>
+
+* chore: add changelog ([713b528](https://github.com/KaelWD/node-fluent-ffmpeg/commit/713b528))
+* chore: update package name ([d0e5231](https://github.com/KaelWD/node-fluent-ffmpeg/commit/d0e5231))
+* add example any-to-mp4-steam.js ([777fde7](https://github.com/KaelWD/node-fluent-ffmpeg/commit/777fde7))
+* Add license scan report and status ([48b112b](https://github.com/KaelWD/node-fluent-ffmpeg/commit/48b112b))
+* Clear process timeout timer when command completes ([a9ebbd3](https://github.com/KaelWD/node-fluent-ffmpeg/commit/a9ebbd3))
+* Fixes Travis CI build ([f8da633](https://github.com/KaelWD/node-fluent-ffmpeg/commit/f8da633)), closes [#761](https://github.com/KaelWD/node-fluent-ffmpeg/issues/761)
+* Fixing Bug resolve "./lib-cov/fluent-ffmpeg" ([ac38adc](https://github.com/KaelWD/node-fluent-ffmpeg/commit/ac38adc)), closes [#139](https://github.com/KaelWD/node-fluent-ffmpeg/issues/139) [#358](https://github.com/KaelWD/node-fluent-ffmpeg/issues/358) [#573](https://github.com/KaelWD/node-fluent-ffmpeg/issues/573)
+* Hide ffmpeg,renice,flvtool console window on windows ([99df291](https://github.com/KaelWD/node-fluent-ffmpeg/commit/99df291))
+* Hide ffprobe console in windows ([d3953b0](https://github.com/KaelWD/node-fluent-ffmpeg/commit/d3953b0))
+* Little change for fix pull request test ([473436b](https://github.com/KaelWD/node-fluent-ffmpeg/commit/473436b))
+* remove unused code ([9ed900f](https://github.com/KaelWD/node-fluent-ffmpeg/commit/9ed900f))
+* small tweak on `run()` method ([efca49f](https://github.com/KaelWD/node-fluent-ffmpeg/commit/efca49f))
+* typo in README ([0b28192](https://github.com/KaelWD/node-fluent-ffmpeg/commit/0b28192))
+* Update README.md ([fb6aabb](https://github.com/KaelWD/node-fluent-ffmpeg/commit/fb6aabb))
+* update travis.yml ([299b9f5](https://github.com/KaelWD/node-fluent-ffmpeg/commit/299b9f5))
+* updated node version to 12 ([04a404a](https://github.com/KaelWD/node-fluent-ffmpeg/commit/04a404a))
+* ffprobe: added EOF to the list of ignored errors ([27f79a5](https://github.com/KaelWD/node-fluent-ffmpeg/commit/27f79a5))
+* fix: update tested node versions and ffmpeg url ([8f386cd](https://github.com/KaelWD/node-fluent-ffmpeg/commit/8f386cd))
+
+
+
 ## <small>2.1.2 (2017-04-23)</small>
 
 * Add issue template ([a783334](https://github.com/KaelWD/node-fluent-ffmpeg/commit/a783334))
